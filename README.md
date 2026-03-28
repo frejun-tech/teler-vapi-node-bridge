@@ -1,6 +1,6 @@
 # Teler-Vapi-Node-Bridge
 
-A reference integration between Teler and VAPI in Node, based on [Media Streaming Bridge](https://frejun.ai/docs/category/media-streaming/) over WebSockets.
+A reference Node integration between Teler and VAPI in Node, based on [Media Streaming Bridge](https://frejun.ai/docs/category/media-streaming/) over WebSockets.
 
 
 ## Setup
@@ -8,7 +8,7 @@ A reference integration between Teler and VAPI in Node, based on [Media Streamin
 1. **Clone and configure:**
 
    ```bash
-   git clone https://github.com/rupak-stack/teler-vapi-node-bridge.git
+   git clone https://github.com/frejun-tech/teler-vapi-node-bridge.git
    cd teler-vapi-node-bridge
    cp .env.example .env
    # Edit .env with your actual values
