@@ -24,9 +24,9 @@ wss.on('connection', async (callWs: WebSocket) => {
     
     const connector = new StreamConnector(
         wsURL,
-        StreamType.BIDIRECTIONAL,
         callStreamHandler,
-        remoteStreamHandler()
+        remoteStreamHandler(),
+        StreamType.BIDIRECTIONAL
     );
 
     await connector.bridgeStream(callWs);
